@@ -2,9 +2,11 @@ const fs = require('fs')
 const axios = require('axios')
 const path = require('path')
 const FormData = require('form-data')
+//域名
 const domain = 'https://pan.kanokano.cn'
 //上传目录
 const uploadPath = '/阿里云の盘/Typora图床'
+
 //图片上传接口
 async function upload(path) {
     const form = new FormData();
