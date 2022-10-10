@@ -59,10 +59,10 @@ async function main() {
             status = await upload(fullpath)
             if (status) {
                 console.log('https://pan.kanokano.cn/d' + uploadPath + '/' + baseName);
-            }else {
-				console.log(`${baseName}上传失败`)
-				break
-			}
+            } else {
+                console.log(`${baseName}上传失败`)
+                break
+            }
         }
 
     } else {

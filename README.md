@@ -4,4 +4,4 @@
 
 安装：`npm i`
 
-USAGE:` node kano_img_bed -upload [path]`
+USAGE: `node kano_img_bed -upload [path]`
